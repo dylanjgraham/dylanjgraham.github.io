@@ -1,0 +1,8 @@
+I started out this project creating points on the 3d cordinate plane and moving the camera around to force them to show their
+trail. After procedurally implementing that I decided to add a particle system. I learned right away that my particles could 
+be set up in a way that would would similarly to the points I was originally creating. So, I modified the code to create points
+randomly on the grid given some params and had the rays generated that way. 
+
+One issue I ran into along the way was coming to a CORS exeption. To work around this I was forced to create a locall http 
+connection using python in the command line to test my program
+
