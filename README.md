@@ -13,9 +13,9 @@ To host a simple server to run this code follow these steps:
 
 Works cited
 
-https://threejs.org/docs/#api/en/core/BufferGeometry
+Documentation: https://threejs.org/docs/#api/en/core/BufferGeometry
 
-https://threejs.org/examples/#webgl_trails
+Base code: https://threejs.org/examples/#webgl_trails
 
-https://aerotwist.com/tutorials/creating-particles-with-three-js/
+particle system: https://aerotwist.com/tutorials/creating-particles-with-three-js/
 
