@@ -7,6 +7,7 @@
     is moved. It was based off of a three.js example but I changed the points to be a particle system and created my own for loop
     to randomly place them around the screen
   </p>
+  <br>
 <h1> Implementation decisions </h1>
 <p> I started out this project creating points on the 3d cordinate plane and moving the camera around to force them to show their
 trail. After procedurally implementing that I decided to add a particle system. I learned right away that my particles could 
@@ -15,21 +16,32 @@ randomly on the grid given some params and had the rays generated that way.  </p
 <br>
   <h1>Roadblocks</h1>
   <p>
-    <h2>CORS Exception</h2>
+    <h3>CORS Exception</h2>
     One issue I ran into along the way was coming to a CORS exeption. To work around this I was forced to create a local http 
 connection using python in the command line to test my program
-    
-    
   </p>
-  <h2>GithubPage</h2>
+  <h3>GithubPage</h2>
     <p>
       I had trouble creating my github page. For some reason it was giving me a 404 error when I clicked the link. After changing
       nothing the next morning the link majically started working so I attribute the error so githubs side of thins
    </p>
-  <h2>Rotation Issue</h2>
+  <h3>Rotation Issue</h2>
     <p>
       getting the camera to rotate at a fixed interval was challenging but eventually acomplished by incrementing the x value of
       the camera by 10 instead of just moving based off of user input.
    </p>
+  <h1> Effects Used <h1>
+    <p>
+    - Procedural implementation
+    - user input in the form of mouse movement
+    - Particle System 
+    </p>
+    
+    <h1> Sources <h1>
+      <p>
+    - Procedural implementation
+    - user input in the form of mouse movement
+    - Particle System 
+    </p>
   </body>
 </html>
