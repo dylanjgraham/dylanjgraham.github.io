@@ -8,3 +8,14 @@ To host a simple server to run this code follow these steps:
 2. Navigate to the folder containing the ScreenSaver.HTML file
 3. Paste the following line: python -m SimpleHTTPServer
 4. In Chrome type http://0.0.0.0:8000/ScreenSaver.html
+
+
+
+Works cited
+
+https://threejs.org/docs/#api/en/core/BufferGeometry
+
+https://threejs.org/examples/#webgl_trails
+
+https://aerotwist.com/tutorials/creating-particles-with-three-js/
+
